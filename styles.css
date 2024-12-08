@@ -34,10 +34,9 @@ main {
 .profile-image {
   display: block;
   margin: 0 auto;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  
+  width: 15px;
+  height: 15px;
+  padding: 40px 20px; 
 }
 
 .profile-info {
