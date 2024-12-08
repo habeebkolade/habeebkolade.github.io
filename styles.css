@@ -1,63 +1,27 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
+}
+
+header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    margin: 0;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: bold;
 }
 
 .container {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    width: 600px;
-    overflow: hidden;
-}
-
-.profile-picture img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 20px;
-}
-
-.profile-content {
     padding: 20px;
-    flex: 1;
-}
-
-.profile-content h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-.profile-content p {
-    font-size: 16px;
-    color: #666;
-}
-
-.social-links {
-    margin-top: 20px;
 }
 
 .social-links a {
