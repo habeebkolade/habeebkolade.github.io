@@ -8,42 +8,61 @@ body {
     margin: 0;
 }
 
-.profile-card {
+.container {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 600px;
     overflow: hidden;
-    width: 300px;
-    text-align: center;
 }
 
-.profile-card img {
-    width: 100%;
-    height: auto;
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
 }
 
-.profile-card h1 {
+.profile-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.profile-content h1 {
     margin: 0;
-    padding: 20px 0;
     font-size: 24px;
 }
 
-.profile-card p {
-    padding: 0 20px;
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.profile-content p {
     font-size: 16px;
     color: #666;
 }
 
-.profile-card .social-links {
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
+.social-links {
+    margin-top: 20px;
 }
 
-.profile-card .social-links a {
-    margin: 0 10px;
+.social-links a {
+    margin-right: 10px;
     color: #333;
     text-decoration: none;
     font-size: 20px;
 }
-
