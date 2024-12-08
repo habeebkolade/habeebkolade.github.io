@@ -4,28 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Researcher Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="profile-picture">
-            <img src="profile-picture.jpg" alt="Profile Picture">
-        </div>
-        <div class="profile-content">
-            <h1>Dr. Jane Doe</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#website">Visit My Website</a></li>
-                </ul>
-            </nav>
-            <p id="about">I am a researcher based in Lagos, Nigeria, specializing in environmental science. My work focuses on sustainable development and climate change mitigation.</p>
-            <div class="social-links">
-                <a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a>
-                <a href="https://instagram.com/username" target="_blank">Instagram</a>
-                <a href="https://twitter.com/username" target="_blank">Twitter</a>
+    <header class="d-flex justify-content-between align-items-center p-3 bg-light">
+        <h1 class="logo">Researcher Profile</h1>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#website">Visit My Website</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Dr. Jane Doe</h2>
+                <p id="about">I am a researcher based in Lagos, Nigeria, specializing in environmental science. My work focuses on sustainable development and climate change mitigation.</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a>
+                    <a href="https://instagram.com/username" target="_blank">Instagram</a>
+                    <a href="https://twitter.com/username" target="_blank">Twitter</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="profile-picture.jpg" alt="Profile Picture" class="img-fluid rounded-circle">
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
