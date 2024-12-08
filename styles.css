@@ -32,7 +32,7 @@ main {
 }
 
 .profile-image {
-  display: block;
+  display: inline;
   margin: 0 auto;
   width: 15px;
   height: 15px;
